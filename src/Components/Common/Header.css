@@ -1,0 +1,76 @@
+.head {
+  padding: 20px 0;
+  color: #000;
+}
+
+.logo h1 {
+  font-size: 35px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.logo span {
+  color: #fff;
+}
+
+.head .icon {
+  margin-left: 10px;
+}
+
+/* Header styling */
+header .nav {
+  background-color: rgba(143, 131, 131, 0.2);
+  margin: 0 30px;
+}
+
+header .nav {
+  display: flex !important;
+}
+
+header .px-4 {
+  color: #fff;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+header .px-4:hover {
+  color: #1eb2a6;
+}
+
+.ms-auto {
+  background-color: #1eb2a6;
+  color: #fff;
+}
+
+.fab.icon {
+  cursor: pointer;
+}
+
+/* Media query */
+@media screen and (max-width: 768px) {
+  header .nav {
+      background-color: #1eb2a6;
+      margin: 0;
+  }
+
+  .navbar-toggler {
+      border-color: #fff;
+  }
+
+  .navbar-toggler-icon {
+      background-image: none;
+      
+  }
+
+  .navbar-collapse {
+      text-align: center;
+  }
+
+  .navbar-nav {
+      margin-top: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+      padding: 0.5rem 1rem;
+  }
+}
