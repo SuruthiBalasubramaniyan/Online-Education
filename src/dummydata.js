@@ -86,17 +86,17 @@ export const homeAbout = [
     },
     {
       id: 4,
-      cover: "../images/courses/c4.png",
-      coursesName: "Introducing to Programming with WordPress",
-      courTeacher: [
-        {
-          dcover: "../images/back.webp",
-          name: "by Prabin Thapa Mager",
-          totalTime: "20 lectures (20 hrs)",
-        },
-      ],
-      priceAll: "$30 All Course",
-      pricePer: "$3 per month",
+        cover: "../images/courses/c4.png",
+        coursesName: "Introducing to Programming with WordPress",
+        courTeacher: [
+          {
+            dcover: "../images/back.webp",
+            name: "by Prabin Thapa Mager",
+            totalTime: "20 lectures (20 hrs)",
+          },
+        ],
+        priceAll: "$30 All Course",
+        pricePer: "$3 per month",
     },
     {
       id: 5,

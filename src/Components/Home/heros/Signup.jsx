@@ -1,4 +1,3 @@
-// src/Components/Modals/SignupModal.js
 import React from 'react';
 import {Button} from 'react-bootstrap'
 import './Modal.css';

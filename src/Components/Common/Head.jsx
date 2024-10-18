@@ -9,8 +9,8 @@ const Head = () => {
       <section className='head'>
         <div className='container flexSB'>
           <div className='logo mt-3'>
-            <h1>ACAMEDIA</h1>
-            <span>ONLINE EDUCATION</span>
+            <h1 style={{color: '#1eb2a6'}}>ACAMEDIA</h1>
+            <span  style={{color: '#1eb2a6'}}>ONLINE EDUCATION</span>
           </div>
 
           <div className='social mt-3'>
