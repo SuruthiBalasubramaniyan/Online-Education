@@ -185,7 +185,7 @@ function CourseCard() {
                   <img src={val.cover} alt='cover' />
                 </div>
                 <div className='text'>
-                  <h1 className='csname'>{val.coursesName}</h1>
+                  <h3 className='csname'>{val.coursesName}</h3>
                   <div className='rate'>
                     <i className='fa fa-star'></i>
                     <i className='fa fa-star'></i>
@@ -201,7 +201,7 @@ function CourseCard() {
                           <img src={details.dcover} alt='dcover' />
                         </div>
                         <div className='para'>
-                          <h4>{details.name}</h4>
+                          <h5>{details.name}</h5>
                         </div>
                         <span>{details.totalTime}</span>
                       </div>
@@ -210,7 +210,7 @@ function CourseCard() {
                 </div>
               </div>
               <div className='price'>
-                <h3>{val.priceAll} / {val.pricePer}</h3>
+                <h4>{val.priceAll} / {val.pricePer}</h4>
               </div>
               <button className='btn online-btn' onClick={() => handleEnrollClick(val)}>
                 ENROLL NOW!
@@ -225,7 +225,7 @@ function CourseCard() {
   <div className='modal'>
     <div className='modal-content'>
       <span className='close' onClick={handleCloseModal}>&times;</span>
-      <h2>Enroll in {selectedCourse?.coursesName}</h2> {/* Use optional chaining in case selectedCourse is null */}
+      <h4>Enroll in {selectedCourse?.coursesName}</h4> 
       <form onSubmit={handleSubmit}>
         <input
           type='text'
@@ -257,7 +257,7 @@ function CourseCard() {
           onChange={handleFileChange}
           required
         />
-        <button type='submit'>Submit</button>
+        <button type='submit' className='btn online-btn'>Submit</button>
       </form>
     </div>
   </div>

@@ -5,14 +5,15 @@
   .blog .text {
     padding: 40px 30px;
   }
-  .blog h1 {
+  .blog h5 {
     font-weight: 500;
+    color: #b21e2a;
     font-size: 22px;
     line-height: 30px;
     margin: 20px 0;
     transition: 0.5s;
   }
-  .blog h1:hover {
+  .blog h5:hover {
     color: #1eb2a6;
     cursor: pointer;
   }
@@ -32,4 +33,6 @@
   .blog p {
     color: grey;
   }
-  
+  h3{
+    color:#1eb2a6;
+  }

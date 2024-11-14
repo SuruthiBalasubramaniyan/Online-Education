@@ -24,7 +24,7 @@ function BlogCard () {
                 <label htmlFor=''>{val.com}</label>
               </span>
             </div>
-            <h1>{val.title}</h1>
+            <h5>{val.title}</h5>
             <p>{val.desc}</p>
           </div>
         </div>
