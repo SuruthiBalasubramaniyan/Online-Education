@@ -1,5 +1,4 @@
 import React from 'react';
-// import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaLinkedin, FaGithub } from 'react-icons/fa';
 import './footer.css';
  function Footer () {
     return (
@@ -22,26 +21,7 @@ import './footer.css';
             <h1 style={{color:"#1eb2a6"}}> ACADEMIA</h1>
             <span style={{color:"#1eb2a6"}}>ONLINE EDUCATION & LEARNING</span>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            {/* <div className='gridicon'>
-            <a href="https://facebook.com" className='fab icon ms-1' target="_blank"  rel="noopener noreferrer" aria-label="Facebook">
-                <FaFacebook   />
-              </a>
-              <a href="https://twitter.com" className='fab icon ms-1 ' target="_blank"    rel="noopener noreferrer" aria-label="Twitter">
-                <FaTwitter   />
-              </a>
-              <a href="https://instagram.com" className='fab icon  ms-1' target="_blank"    rel="noopener noreferrer" aria-label="Instagram">
-                <FaInstagram  />
-              </a>
-              <a href="https://youtube.com" className='fab icon ms-1' target="_blank"    rel="noopener noreferrer" aria-label="Youtube">
-                <FaYoutube  />
-              </a>
-              <a href="https://linkedin.com" className='fab icon ms-1' target="_blank"    rel="noopener noreferrer" aria-label="Youtube">
-              <FaLinkedin  />
-              </a> 
-              <a href="https://github.com" className='fab icon ms-1' target="_blank"    rel="noopener noreferrer" aria-label="Youtube">
-                <FaGithub  />
-              </a> 
-              </div> */}
+            
           </div>
           <div className='grid'>
           <div className='box link'>
