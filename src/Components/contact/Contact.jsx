@@ -51,7 +51,7 @@ function Contact()
                 <div className='container shadow flexSB'>
                     <div className='left row'>
                     
-                    <iframe src={gmap}></iframe>
+                    <iframe src={gmap} title="Unique title for iframe"></iframe>
                     </div>
                     <div className='right row'>
                         <h1>Contact us</h1>
