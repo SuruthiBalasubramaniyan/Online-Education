@@ -1,4 +1,4 @@
-.aboutHome {
+/* .aboutHome {
     height: auto;
 }
 .aboutHome #heading {
@@ -81,5 +81,171 @@ width: 200px;
     }
     .awrapper{
         height: 50vh;
+    }
+} */
+
+/* .aboutHome section styles */
+.aboutHome {
+    height: auto;
+}
+
+.aboutHome #heading {
+    text-align: left;
+    padding: 0;
+}
+
+.aboutHome .left-row img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* About Home Section - Responsive Styling */
+.aboutHome .right-row {
+    padding: 80px 50px;
+}
+
+.aboutHome .items {
+    margin-top: 50px;
+}
+
+.aboutHome .item {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.aboutHome .img {
+    width: 200px;
+}
+
+.aboutHome img {
+    width: 70px;
+    height: 70px;
+}
+
+.aboutHome .item h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.aboutHome .item p {
+    color: #999999;
+}
+
+.aboutHome .item:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+
+.aboutHome .item:hover p {
+    color: #fff;
+}
+
+/* -- Awrapper Styles --- */
+.awrapper {
+    background-image: url('../../../public/images/awrapper.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.awrapper .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.awrapper .box {
+    padding: 70px 0;
+    width: 30%; /* Ensures three boxes in a row on large screens */
+}
+
+.awrapper .box .img {
+    margin-right: 30px;
+}
+
+.awrapper .box .text {
+    color: #fff;
+}
+
+.awrapper h1 {
+    font-size: 50px;
+}
+
+.awrapper h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* -- Media Queries for Mobile and Tablet Responsiveness --- */
+
+@media screen and (max-width: 768px) {
+    /* Adjust layout for smaller devices */
+    .aboutHome {
+        margin-top: 80%;
+    }
+
+    .aboutHome .container {
+        flex-direction: column-reverse;
+    }
+
+    .aboutHome .row {
+        width: 100%;
+    }
+
+    /* Adjust Awrapper Section */
+    .awrapper {
+        height: 50vh; /* Smaller height on mobile */
+    }
+
+    .awrapper .container {
+        flex-direction: column; /* Stack boxes vertically */
+        padding: 15px; /* Add padding around content */
+    }
+
+    .awrapper .box {
+        width: 100%; /* Full width on mobile */
+        padding: 20px 0; /* Adjust padding */
+    }
+
+    /* Image size and text adjustments for mobile */
+    .awrapper img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .awrapper h1 {
+        font-size: 30px; /* Smaller font size for mobile */
+    }
+
+    .awrapper h3 {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .aboutHome .item h2 {
+        font-size: 18px;
+    }
+
+    .aboutHome .item p {
+        font-size: 14px;
+    }
+}
+
+/* For Tablet devices (between 768px and 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .awrapper .box {
+        width: 45%; /* Two boxes per row on medium screens */
+        padding: 50px 0;
+    }
+
+    .awrapper h1 {
+        font-size: 40px;
+    }
+
+    .awrapper h3 {
+        font-size: 18px;
     }
 }
