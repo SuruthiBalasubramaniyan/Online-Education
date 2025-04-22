@@ -68,11 +68,11 @@ import './footer.css';
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2024 All rights reserved  
+          Copyright ©2024 All rights reserved by Acamedia online education
         </p>
       </div>
     </> 
     )
 }
 
-export default Footer;
+export default Footer; 
