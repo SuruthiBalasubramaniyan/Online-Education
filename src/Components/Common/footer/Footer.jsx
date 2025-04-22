@@ -27,7 +27,7 @@ import './footer.css';
           <div className='box link'>
             <h3>Explore</h3>
             <ul>
-              <li>About Us</li>
+            <li>About Us</li>
               <li>Services</li>
               <li>Courses</li>
               <li>Blog</li>
@@ -68,7 +68,7 @@ import './footer.css';
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2022 All rights reserved  
+          Copyright ©2024 All rights reserved  
         </p>
       </div>
     </> 
